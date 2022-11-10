@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ekran_adowania_full"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -22,6 +23,7 @@
         android:text=""
         android:background=""
         tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="556dp" />
+        tools:layout_editor_absoluteY="556dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

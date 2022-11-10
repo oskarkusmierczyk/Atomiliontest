@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pole_logowania_pusty"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/blacha"
+        android:layout_width="288dp"
+        android:layout_height="541dp"
+        app:srcCompat="@drawable/ekran_adowania_blacha"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="190dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/przycisk"
+        android:layout_width="249dp"
+        android:layout_height="586dp"
+        app:srcCompat="@drawable/ekran_adowaniaprzycisk"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="190dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/zaloguj"
+        android:layout_width="134dp"
+        android:layout_height="44dp"
+        android:background=""
+        android:text="ZALOGUJ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="604dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
