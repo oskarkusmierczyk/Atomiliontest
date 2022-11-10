@@ -34,11 +34,11 @@
 
     <Button
         android:id="@+id/zaloguj"
-        android:layout_width="134dp"
-        android:layout_height="44dp"
+        android:layout_width="137dp"
+        android:layout_height="49dp"
         android:background=""
         android:text="ZALOGUJ"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="604dp" />
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="601dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
